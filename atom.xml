@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Little Blog]]></title>
+  
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://bupt2014140518.github.io/"/>
+  <updated>2016-01-14T08:20:34.438Z</updated>
+  <id>http://bupt2014140518.github.io/</id>
+  
+  <author>
+    <name><![CDATA[Littlehunhun]]></name>
+    <email><![CDATA[bupt2014140518@126.com]]></email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[html-trick1]]></title>
+    <link href="http://bupt2014140518.github.io/2016/01/14/html-trick1/"/>
+    <id>http://bupt2014140518.github.io/2016/01/14/html-trick1/</id>
+    <published>2016-01-14T08:06:48.000Z</published>
+    <updated>2016-01-14T08:20:34.438Z</updated>
+    <content type="html"><![CDATA[<p>html-css-javascript使用过程中进行总结<br><a id="more"></a></p>
+<h3 id="1-_psd文件进行切图完成对html设计">1. psd文件进行切图完成对html设计</h3><blockquote>
+<ul>
+<li>已经准备好的psd文件；</li>
+<li>打开之后，用矩形选择工具，进行选择；之后按ctrl+shift+c合并复制，再按ctrl+N，完成新建画布；再按ctrl+v将刚选择的图片黏贴；最后按ctrl+s保存为jpg、png等。</li>
+</ul>
+</blockquote>
+<p><strong><em>参考</em></strong><br><a href="http://sixrevisions.com/tutorials/web-development-tutorials/psdhtml-conversion-elegant-and-simple-css3-web-layout/" target="_blank" rel="external">psd切图1</a><br><a href="http://sixrevisions.com/tutorials/photoshop-tutorials/make-an-elegant-and-simple-blog-web-layout-using-photoshop/" target="_blank" rel="external">psd切图2</a></p>
+<h3 id="2-_li_click">2. li click</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">li</span> <span class="attribute">onclick</span>=<span class="value">"location.href='http://example';"</span>&gt;</span> ... <span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>html-css-javascript使用过程中进行总结<br>]]>
+    
+    </summary>
+    
+      <category term="html" scheme="http://bupt2014140518.github.io/tags/html/"/>
+    
+      <category term="web" scheme="http://bupt2014140518.github.io/categories/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[word-图片自动编号]]></title>
+    <link href="http://bupt2014140518.github.io/2015/12/17/word-%E5%9B%BE%E7%89%87%E8%87%AA%E5%8A%A8%E7%BC%96%E5%8F%B7/"/>
+    <id>http://bupt2014140518.github.io/2015/12/17/word-图片自动编号/</id>
+    <published>2015-12-17T07:53:34.000Z</published>
+    <updated>2015-12-17T08:11:10.214Z</updated>
+    <content type="html"><![CDATA[<p>论文中经常要用到图片插入、修改的操作，如何利用word使之更加便利! It is time to use more powerful tool~<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Bagan,%20Burma4.jpg" alt="Bagan"><br><a id="more"></a><br>针对此功能，主要分为三步：</p>
+<ol>
+<li>插入题注——首先在要入编号的图片后，点击“引用”-》“插入题注”，弹出对话窗口。<br>选择“新建标签”，命名为“图1-”，点击“确定”；</li>
+<li>再在需要添加描述的文本中，点击“引用”-》“交叉引用”，弹出对话窗口。<br>选择合适的引用“图1-”，选择正确的引用标注，点击“插入”；</li>
+<li>以后每次添加新的图片，在图片后点击“引用”-》“插入题注”，会自动生成接着上次的编号，直接点击插入即可。</li>
+</ol>
+<p><strong><em>Note</em></strong><br>对于更改图片顺序和图片序号的直接，全选、右键、更新域即可。<br><strong><em>参见</em></strong><br><a href="http://www.111cn.net/office/word/51842.htm" target="_blank" rel="external">http://www.111cn.net/office/word/51842.htm</a><br><a href="http://blog.sciencenet.cn/blog-344887-543229.html" target="_blank" rel="external">http://blog.sciencenet.cn/blog-344887-543229.html</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>论文中经常要用到图片插入、修改的操作，如何利用word使之更加便利! It is time to use more powerful tool~<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Bagan,%20Burma4.jpg" alt="Bagan"><br>]]>
+    
+    </summary>
+    
+      <category term="word" scheme="http://bupt2014140518.github.io/tags/word/"/>
+    
+      <category term="研究生" scheme="http://bupt2014140518.github.io/categories/%E7%A0%94%E7%A9%B6%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我的web之路-AngularJS]]></title>
+    <link href="http://bupt2014140518.github.io/2015/12/09/%E6%88%91%E7%9A%84web%E4%B9%8B%E8%B7%AF-AngularJS/"/>
+    <id>http://bupt2014140518.github.io/2015/12/09/我的web之路-AngularJS/</id>
+    <published>2015-12-09T08:09:03.000Z</published>
+    <updated>2015-12-09T08:12:21.380Z</updated>
+    <content type="html"><![CDATA[<p>前端学习之AngularJS——最近一直在<a href="https://www.codecademy.com/" target="_blank" rel="external">Codecademy</a>学习，获益匪浅！<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Great%20Smoky%20Mountains,%20U.S6.jpg" alt="Mountains"><br><a id="more"></a></p>
+<h3 id="概述">概述</h3><p>AngularJS是一个javascript web开发框架，旨在让网站开发变得更加高效，其主要还是基于MVC框架来实现。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>前端学习之AngularJS——最近一直在<a href="https://www.codecademy.com/">Codecademy</a>学习，获益匪浅！<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Great%20Smoky%20Mountains,%20U.S6.jpg" alt="Mountains"><br>]]>
+    
+    </summary>
+    
+      <category term="AngularJS" scheme="http://bupt2014140518.github.io/tags/AngularJS/"/>
+    
+      <category term="web" scheme="http://bupt2014140518.github.io/categories/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我的web之路-jQuery]]></title>
+    <link href="http://bupt2014140518.github.io/2015/12/08/%E6%88%91%E7%9A%84web%E4%B9%8B%E8%B7%AF-jQuery/"/>
+    <id>http://bupt2014140518.github.io/2015/12/08/我的web之路-jQuery/</id>
+    <published>2015-12-08T06:38:13.000Z</published>
+    <updated>2015-12-10T08:56:27.592Z</updated>
+    <content type="html"><![CDATA[<p>前端学习之jQuery——最近一直在<a href="https://www.codecademy.com/" target="_blank" rel="external">Codecademy</a>学习，获益匪浅！<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Great%20Smoky%20Mountains,%20U.S6.jpg" alt="Mountains"><br><a id="more"></a></p>
+<h3 id="概述">概述</h3><p>jQuery是一个web前端库，也可以说是javascript的一个外包，它通过选择器的机制完成对网页的动态实现(<a href="http://jquery.com/" target="_blank" rel="external">详见</a>)。</p>
+<h3 id="主要内容">主要内容</h3><ol>
+<li>Events. Respond to user interactions.</li>
+<li>DOM Manipulation. Modify HTML elements on the page.</li>
+<li>Effects. Add animations.</li>
+</ol>
+<p><strong><em>一般模式</em></strong>：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">do</span> sth;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
+<h3 id="常用event&amp;effect">常用event&amp;effect</h3><ol>
+<li>click / hover /dblclick (mouse常用)</li>
+<li>addClass /removeClass /append /preAppend /remove /css /animate (element常用)</li>
+<li>keydown / (keyboard常用)</li>
+<li>UI (丰富的动画效果)</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>前端学习之jQuery——最近一直在<a href="https://www.codecademy.com/">Codecademy</a>学习，获益匪浅！<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Great%20Smoky%20Mountains,%20U.S6.jpg" alt="Mountains"><br>]]>
+    
+    </summary>
+    
+      <category term="jQuery" scheme="http://bupt2014140518.github.io/tags/jQuery/"/>
+    
+      <category term="web" scheme="http://bupt2014140518.github.io/categories/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我的github]]></title>
+    <link href="http://bupt2014140518.github.io/2015/12/02/%E6%88%91%E7%9A%84github/"/>
+    <id>http://bupt2014140518.github.io/2015/12/02/我的github/</id>
+    <published>2015-12-02T08:45:14.000Z</published>
+    <updated>2016-03-24T07:31:21.026Z</updated>
+    <content type="html"><![CDATA[<p>简述关于构建github应用——hexo博客&amp;其他项目<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Yosemite,%20U.S..jpg" alt="Yosemite"><br><a id="more"></a></p>
+<h2 id="0-概述">0.概述</h2><p>本文的主要内容是简介github的使用，主要从两方面：username.git.io和project(gh-pages)来创建应用。</p>
+<h3 id="1-搭建hexo静态博客">1.搭建hexo静态博客</h3><p>该部分主要是基于username.git.io来创建独立博客。主要分为三阶段：</p>
+<ol>
+<li>准备环境：Node.js&amp;Git&amp;Hexo</li>
+<li>github创建应用： 在这里是创建username.git.io项目（最后网站地址：<a href="http://username.github.io）" target="_blank" rel="external">http://username.github.io）</a></li>
+<li>hexo配置、上传: 网站基本配置&amp;主题配置</li>
+</ol>
+<p><strong><em>详见</em></strong>：<a href="http://blog.fens.me/hexo-blog-github/" target="_blank" rel="external">参考1</a> <a href="https://xuanwo.org/2015/03/26/hexo-intor/" target="_blank" rel="external">参考2</a><br><strong><em>demo</em></strong>：<a href="http://bupt2014140518.github.io/">little blog</a></p>
+<h3 id="2-搭建项目">2.搭建项目</h3><p>该部分主要是基于gh-pages来创建项目或者应用。</p>
+<ol>
+<li>建立项目：git clone github.com/user/repository.git</li>
+<li><p>切换分支，发布应用（访问地址形如：<a href="https://username.github.io/projectname）" target="_blank" rel="external">https://username.github.io/projectname）</a></p>
+<p>git clone <a href="https://github.com/bupt2014140518/tit.git" target="_blank" rel="external">https://github.com/bupt2014140518/tit.git</a><br>git checkout –orphan gh-pages<br>git pull origin gh-pages<br>git commit -a -m “First pages commit<br>git push origin gh-pages</p>
+</li>
+</ol>
+<p><strong><em>详见</em></strong>：<a href="https://help.github.com/articles/creating-project-pages-manually/" target="_blank" rel="external">参考1</a><br><strong><em>demo</em></strong>： <a href="http://bupt2014140518.github.io/tit/">tit</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>简述关于构建github应用——hexo博客&amp;其他项目<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Yosemite,%20U.S..jpg" alt="Yosemite"><br>]]>
+    
+    </summary>
+    
+      <category term="github" scheme="http://bupt2014140518.github.io/tags/github/"/>
+    
+      <category term="github" scheme="http://bupt2014140518.github.io/categories/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我的web之路-javaScript]]></title>
+    <link href="http://bupt2014140518.github.io/2015/11/26/%E6%88%91%E7%9A%84web%E4%B9%8B%E8%B7%AF-javaScript/"/>
+    <id>http://bupt2014140518.github.io/2015/11/26/我的web之路-javaScript/</id>
+    <published>2015-11-26T12:48:08.000Z</published>
+    <updated>2015-12-01T05:51:53.464Z</updated>
+    <content type="html"><![CDATA[<p>前端学习之javaScript——《JavaScript DOM 编程艺术 第二版》<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/San%20Francisco,%20U.S12.jpg" alt="San Francisco"><br><a id="more"></a></p>
+<p>###第一部分——DOM简介<br>前三章主要可以总结如下：<br>主要介绍基础：JavaScript语法、DOM简介。</p>
+<p>DOM（Document Object Model/Map）可以看成是JavaScript的一个标准，如同c++14是c++的标准一样</p>
+<p>###第二部分——DOM简单实践<br>4-5章主要以案例的形式，介绍DOM的相关特点：</p>
+<ol>
+<li>平稳退化：确保网页在没有JavaScript的情况下也能正常工作</li>
+<li>分离JavaScript：把网页的结构和JavaScript脚本的动作行为分开</li>
+<li>向后兼容：确保老版本的浏览器不会因为你的JavaScript脚本而死掉</li>
+<li>性能考虑：确保脚本执行的性能最优</li>
+</ol>
+<p>###第三部分——概述<br>网页的三层：</p>
+<ol>
+<li>结构层 html</li>
+<li>样式层 css</li>
+<li>行为层 javascript &amp; dom</li>
+</ol>
+<p>###第四部分<br>丰富强大的库<br>jquery<br>prototype</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>前端学习之javaScript——《JavaScript DOM 编程艺术 第二版》<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/San%20Francisco,%20U.S12.jpg" alt="San Francisco"><br>]]>
+    
+    </summary>
+    
+      <category term="javaScript" scheme="http://bupt2014140518.github.io/tags/javaScript/"/>
+    
+      <category term="读书" scheme="http://bupt2014140518.github.io/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我的web之路-css]]></title>
+    <link href="http://bupt2014140518.github.io/2015/11/16/%E6%88%91%E7%9A%84web%E4%B9%8B%E8%B7%AF-css/"/>
+    <id>http://bupt2014140518.github.io/2015/11/16/我的web之路-css/</id>
+    <published>2015-11-16T06:57:02.000Z</published>
+    <updated>2015-11-27T00:52:22.042Z</updated>
+    <content type="html"><![CDATA[<p>《精通CSS 高级web标准解决方案 第2版》<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/San%20Francisco,%20U.S11.jpg" alt="San Francisco"><br><a id="more"></a><br>正文</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>《精通CSS 高级web标准解决方案 第2版》<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/San%20Francisco,%20U.S11.jpg" alt="San Francisco"><br>]]>
+    
+    </summary>
+    
+      <category term="css" scheme="http://bupt2014140518.github.io/tags/css/"/>
+    
+      <category term="读书" scheme="http://bupt2014140518.github.io/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[读书-计算机网络]]></title>
+    <link href="http://bupt2014140518.github.io/2015/11/13/%E8%AF%BB%E4%B9%A6-%E3%80%8A%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E3%80%8B/"/>
+    <id>http://bupt2014140518.github.io/2015/11/13/读书-《计算机网络》/</id>
+    <published>2015-11-13T05:57:49.000Z</published>
+    <updated>2015-11-26T12:55:55.457Z</updated>
+    <content type="html"><![CDATA[<p>摘要<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/San%20Francisco,%20U.S31.jpg" alt="San Francisco"><br><a id="more"></a><br>正文</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>摘要<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/San%20Francisco,%20U.S31.jpg" alt="San Francisco"><br>]]>
+    
+    </summary>
+    
+      <category term="计算机网络" scheme="http://bupt2014140518.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+      <category term="读书" scheme="http://bupt2014140518.github.io/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Rudy-追梦赤子心]]></title>
+    <link href="http://bupt2014140518.github.io/2015/11/03/Rudy-%E8%BF%BD%E6%A2%A6%E8%B5%A4%E5%AD%90%E5%BF%83/"/>
+    <id>http://bupt2014140518.github.io/2015/11/03/Rudy-追梦赤子心/</id>
+    <published>2015-11-03T06:51:48.000Z</published>
+    <updated>2015-11-03T07:29:12.946Z</updated>
+    <content type="html"><![CDATA[<p>这是一个关于不放弃的电影，名字叫《Rudy》,在看的过程中非常感动，感动的是Rudy那永远不放弃的心，让我印象深刻的主要是他的朋友说的一句话:</p>
+<blockquote>
+<p>Having dreams is what makes life tolerable.——梦想让生活得以忍受。</p>
+</blockquote>
+<p>还有当Rudy终于考进圣母大学的时候的一句话（当时我也是热泪盈眶）：</p>
+<blockquote>
+<p>Thanks god!</p>
+</blockquote>
+<p><img src="http://7xn88r.com1.z0.glb.clouddn.com/Great%20Smoky%20Mountains,%20U.S.2.jpg" alt="Great Smoky Mountains"><br><a id="more"></a><br>正文</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>这是一个关于不放弃的电影，名字叫《Rudy》,在看的过程中非常感动，感动的是Rudy那永远不放弃的心，让我印象深刻的主要是他的朋友说的一句话:</p>
+<blockquote>
+<p>Having dreams is what makes life tolerable.——梦想让生活得以忍受。</p>
+</blockquote>
+<p>还有当Rudy终于考进圣母大学的时候的一句话（当时我也是热泪盈眶）：</p>
+<blockquote>
+<p>Thanks god!</p>
+</blockquote>
+<p><img src="http://7xn88r.com1.z0.glb.clouddn.com/Great%20Smoky%20Mountains,%20U.S.2.jpg" alt="Great Smoky Mountains"><br>]]>
+    
+    </summary>
+    
+      <category term="life" scheme="http://bupt2014140518.github.io/tags/life/"/>
+    
+      <category term="随想" scheme="http://bupt2014140518.github.io/categories/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Super Girl]]></title>
+    <link href="http://bupt2014140518.github.io/2015/11/01/Super-Girl/"/>
+    <id>http://bupt2014140518.github.io/2015/11/01/Super-Girl/</id>
+    <published>2015-11-01T10:53:55.000Z</published>
+    <updated>2015-11-01T11:30:35.448Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://7xn88r.com1.z0.glb.clouddn.com/Niagara%20Falls3.jpg" alt="Niagara"><br>美剧《Super Girl》的一段很美的话~</p>
+<p><audio src="http://7xn88r.com1.z0.glb.clouddn.com/Supergirl.S01E01.720p.HDTV.X264-DIMENSION_clip.mp3" controls="controls"></audio><br><a id="more"></a><br>There is no correct path in life.<br>生活没有绝对正确的道路。<br>You will lose your way many times.<br>你会数次迷失方向。<br>What’s important, is that you find your way back to the brave girl you always were.<br>然而重要的是，你要找回那个勇敢的自己。<br>Be wise,be strong and always be true to yourself.<br>要明理，要坚强，要永远忠于自己。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://7xn88r.com1.z0.glb.clouddn.com/Niagara%20Falls3.jpg" alt="Niagara"><br>美剧《Super Girl》的一段很美的话~</p>
+<p><audio src="http://7xn88r.com1.z0.glb.clouddn.com/Supergirl.S01E01.720p.HDTV.X264-DIMENSION_clip.mp3" controls="controls"></audio><br>]]>
+    
+    </summary>
+    
+      <category term="life" scheme="http://bupt2014140518.github.io/tags/life/"/>
+    
+      <category term="随想" scheme="http://bupt2014140518.github.io/categories/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[剑指offer-栈的操作]]></title>
+    <link href="http://bupt2014140518.github.io/2015/10/26/%E5%89%91%E6%8C%87offer-%E6%A0%88%E7%9A%84%E6%93%8D%E4%BD%9C/"/>
+    <id>http://bupt2014140518.github.io/2015/10/26/剑指offer-栈的操作/</id>
+    <published>2015-10-26T08:49:12.000Z</published>
+    <updated>2015-10-26T08:57:41.768Z</updated>
+    <content type="html"><![CDATA[<p>主要是关于栈的相关操作，注意先进后出，出栈，入栈，顶部元素等~<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Neuschwanstein%20Castle,%20German11.jpg" alt="Castle"><br><a id="more"></a></p>
+<h3 id="问题描述1——栈内求min(利用额外空间)">问题描述1——栈内求min(利用额外空间)</h3><p>定义栈的数据结构，请在该类型中实现一个能够得到栈最小元素的min函数。</p>
+<h3 id="代码">代码</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span><br><span class="line">* 1.dataStack为存储数据的栈，minStack为存储最小值的栈；</span><br><span class="line">* 2.push的时候将value值与minStack中的top值比较，小则minStack push value，大则push top值</span><br><span class="line">*/</span></span><br><span class="line"><span class="keyword">class</span> Solution &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">stack</span>&lt;<span class="keyword">int</span>&gt; dataStack, minStack;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">push</span><span class="params">(<span class="keyword">int</span> value)</span> </span>&#123;</span><br><span class="line">        dataStack.push(value);</span><br><span class="line">        <span class="keyword">if</span> (minStack.empty()) &#123;</span><br><span class="line">            minStack.push(value);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span>&#123;</span><br><span class="line">            <span class="keyword">int</span> min = minStack.top();</span><br><span class="line">            value&lt;=min?minStack.push(value):minStack.push(min);</span><br><span class="line">        &#125;</span><br><span class="line">         </span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">pop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        dataStack.pop();</span><br><span class="line">        minStack.pop();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">top</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span>  dataStack.top();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">min</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> minStack.top();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
+    <summary type="html">
+    <![CDATA[<p>主要是关于栈的相关操作，注意先进后出，出栈，入栈，顶部元素等~<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Neuschwanstein%20Castle,%20German11.jpg" alt="Castle"><br>]]>
+    
+    </summary>
+    
+      <category term="剑指offer" scheme="http://bupt2014140518.github.io/tags/%E5%89%91%E6%8C%87offer/"/>
+    
+      <category term="题库" scheme="http://bupt2014140518.github.io/categories/%E9%A2%98%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[剑指offer-顺时针打印矩阵]]></title>
+    <link href="http://bupt2014140518.github.io/2015/10/23/%E5%89%91%E6%8C%87offer-%E9%A1%BA%E6%97%B6%E9%92%88%E6%89%93%E5%8D%B0%E7%9F%A9%E9%98%B5/"/>
+    <id>http://bupt2014140518.github.io/2015/10/23/剑指offer-顺时针打印矩阵/</id>
+    <published>2015-10-23T07:24:45.000Z</published>
+    <updated>2015-10-23T08:31:32.406Z</updated>
+    <content type="html"><![CDATA[<p>主要是用画图的思路，来解决问题（==顺时针打印矩阵==）<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Paris,%20France11.jpg" alt="Paris"><br><a id="more"></a></p>
+<h3 id="问题描述">问题描述</h3><p>输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字，例如，如果输入如下矩阵： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 则依次打印出数字1,2,3,4,8,12,16,15,14,13,9,5,6,7,11,10.</p>
+<hr>
+<h3 id="代码">代码</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*解题思路：顺时针打印就是按圈数循环打印，一圈包含两行或者两列，在打印的时候会出现某一圈中只包含一行，要判断从左向右打印和从右向左打印的时候是否会出现重复打印，同样只包含一列时，要判断从上向下打印和从下向上打印的时候是否会出现重复打印的情况*/</span></span><br><span class="line"><span class="keyword">class</span> Solution &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; printMatrix(<span class="built_in">vector</span>&lt;<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &gt; matrix) &#123;</span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;res;</span><br><span class="line">        res.clear();</span><br><span class="line">        <span class="keyword">int</span> row=matrix.size();<span class="comment">//行数</span></span><br><span class="line">        <span class="keyword">int</span> collor=matrix[<span class="number">0</span>].size();<span class="comment">//列数</span></span><br><span class="line">        <span class="comment">//计算打印的圈数</span></span><br><span class="line">        <span class="keyword">int</span> circle=((row&lt;collor?row:collor)-<span class="number">1</span>)/<span class="number">2</span>+<span class="number">1</span>;<span class="comment">//圈数</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;circle;i++)&#123;</span><br><span class="line">            <span class="comment">//从左向右打印</span></span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j=i;j&lt;collor-i;j++)</span><br><span class="line">                res.push_back(matrix[i][j]);         </span><br><span class="line">            <span class="comment">//从上往下的每一列数据</span></span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> k=i+<span class="number">1</span>;k&lt;row-i;k++)</span><br><span class="line">                res.push_back(matrix[k][collor-<span class="number">1</span>-i]);</span><br><span class="line">            <span class="comment">//判断是否会重复打印(从右向左的每行数据)</span></span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> m=collor-i-<span class="number">2</span>;(m&gt;=i)&amp;&amp;(row-i-<span class="number">1</span>!=i);m--)</span><br><span class="line">                res.push_back(matrix[row-i-<span class="number">1</span>][m]);</span><br><span class="line">            <span class="comment">//判断是否会重复打印(从下往上的每一列数据)</span></span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> n=row-i-<span class="number">2</span>;(n&gt;i)&amp;&amp;(collor-i-<span class="number">1</span>!=i);n--)</span><br><span class="line">                res.push_back(matrix[n][i]);&#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>主要是用画图的思路，来解决问题（==顺时针打印矩阵==）<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Paris,%20France11.jpg" alt="Paris"><br>]]>
+    
+    </summary>
+    
+      <category term="剑指offer" scheme="http://bupt2014140518.github.io/tags/%E5%89%91%E6%8C%87offer/"/>
+    
+      <category term="题库" scheme="http://bupt2014140518.github.io/categories/%E9%A2%98%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[剑指offer-二叉树相关操作]]></title>
+    <link href="http://bupt2014140518.github.io/2015/10/20/%E5%89%91%E6%8C%87offer-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/"/>
+    <id>http://bupt2014140518.github.io/2015/10/20/剑指offer-二叉树相关操作/</id>
+    <published>2015-10-20T06:42:57.000Z</published>
+    <updated>2015-10-22T08:17:47.582Z</updated>
+    <content type="html"><![CDATA[<p>主要是对于二叉树的操作：判断是否是子树；遍历等等；由于二叉树的特点，递归是普遍适用于解决树的几乎所有的问题~<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Paris,%20France4.jpg" alt="Paris"><br><a id="more"></a></p>
+<h3 id="问题描述1——子树判断">问题描述1——子树判断</h3><p>输入两颗二叉树A，B，判断B是不是A的子结构。<br><strong><em>递归</em></strong></p>
+<h3 id="代码1">代码1</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//&#26641;&#23450;&#20041;&#10;struct TreeNode &#123;&#10;&#9;int val;&#10;&#9;struct TreeNode *left;&#10;&#9;struct TreeNode *right;&#10;&#9;TreeNode(int x) :&#10;&#9;&#9;&#9;val(x), left(NULL), right(NULL) &#123;&#10;&#9;&#125;&#10;&#125;;&#10;class Solution &#123;&#10;public:&#10;    bool isSubtree(TreeNode* pRoot1, TreeNode* pRoot2)&#123;&#10;        if(pRoot2 == NULL) return true;&#10;        if(pRoot1 == NULL) return false;&#10;        if(pRoot1-&#62;val == pRoot2-&#62;val)&#10;            return isSubtree(pRoot1-&#62;left,pRoot2-&#62;left) &#38;&#38; isSubtree(pRoot1-&#62;right,pRoot2-&#62;right);&#10;        else&#10;            return false;         &#10;    &#125;&#10;     &#10;public:&#10;    bool HasSubtree(TreeNode* pRoot1, TreeNode* pRoot2)&#10;    &#123;&#10;        if(pRoot1 == NULL || pRoot2 == NULL) return false;&#10;        return isSubtree(pRoot1,pRoot2) || HasSubtree(pRoot1-&#62;left,pRoot2) || HasSubtree(pRoot1-&#62;right,pRoot2);&#10;    &#125;&#10;&#125;;</span><br></pre></td></tr></table></figure>
+<h3 id="问题描述2——树的镜像">问题描述2——树的镜像</h3><p>操作给定的二叉树，将其变换为源二叉树的镜像。<br>二叉树的镜像定义：<br>         源二叉树<br>            8<br>           /  \<br>          6   10<br>         / \  /  \<br>        5  7 9  11<br>        镜像二叉树<br>            8<br>           /  \<br>          10   6<br>         / \  / \<br>        11 9 7   5</p>
+<h3 id="代码2">代码2</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">struct TreeNode &#123;&#10;&#9;int val;&#10;&#9;struct TreeNode *left;&#10;&#9;struct TreeNode *right;&#10;&#9;TreeNode(int x) :&#10;&#9;&#9;&#9;val(x), left(NULL), right(NULL) &#123;&#10;&#9;&#125;&#10;&#125;;&#10;class Solution &#123;&#10;public:&#10;    void Mirror(TreeNode *pRoot) &#123;&#10;&#9;&#9;if(pRoot)&#123;&#10;            TreeNode *tmp = pRoot-&#62;left;&#10;            pRoot-&#62;left = pRoot-&#62;right;&#10;            pRoot-&#62;right= tmp;&#10;            if(pRoot-&#62;right)&#123;&#10;                 Mirror(pRoot-&#62;right);&#10;            &#125;&#10;            if(pRoot-&#62;left)&#123;&#10;                 Mirror(pRoot-&#62;left);&#10;            &#125;&#10;        &#125;&#10;    &#125;&#10;&#125;;</span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>主要是对于二叉树的操作：判断是否是子树；遍历等等；由于二叉树的特点，递归是普遍适用于解决树的几乎所有的问题~<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Paris,%20France4.jpg" alt="Paris"><br>]]>
+    
+    </summary>
+    
+      <category term="剑指offer" scheme="http://bupt2014140518.github.io/tags/%E5%89%91%E6%8C%87offer/"/>
+    
+      <category term="题库" scheme="http://bupt2014140518.github.io/categories/%E9%A2%98%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[改变从态度开始]]></title>
+    <link href="http://bupt2014140518.github.io/2015/10/14/%E6%94%B9%E5%8F%98%E4%BB%8E%E6%80%81%E5%BA%A6%E5%BC%80%E5%A7%8B/"/>
+    <id>http://bupt2014140518.github.io/2015/10/14/改变从态度开始/</id>
+    <published>2015-10-14T13:29:58.000Z</published>
+    <updated>2015-10-23T12:42:46.171Z</updated>
+    <content type="html"><![CDATA[<blockquote class="blockquote-center">决定结果的正是我们在处理表面上微不足道、枯燥乏味，<br>而且不用麻烦的细枝末节时所采取的谨慎小心的态度。————澳大利亚科学家 贝弗里奇</blockquote>
+
+<p><img src="http://7xn88r.com1.z0.glb.clouddn.com/Lake%20Tekapo,%20New%20Zealand1.jpg" alt="Lake"><br><a id="more"></a><br>   今天比较忙，自己感觉上是忙，忙整理hexo，我的博客，下午被高老师去修改申请国家奖学金的申请表，被吐槽了一下午~<br>虽然略有失落，但的确是这样，我自己经常是比较大大咧咧，不够细心，不够认真，高老师在给我指导的过程中，标点符号的注意、不要出现大段的空白句、尽量不要用太不谦虚的字眼（比如形容自己优异。。。高老师说也是要了解别人的心理，人家容易反感~）。<br>   无论工作还是生活，其实都需要我们认真的去对待，《士兵突击》里的许三多说过:</p>
+<blockquote>
+<p>好好活，做有意义的——许三多</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote class="blockquote-center">决定结果的正是我们在处理表面上微不足道、枯燥乏味，<br>而且不用麻烦的细枝末节时所采取的谨慎小心的态度。————澳大利亚科学家 贝弗里奇</blockquote>
+
+<p><img src="http://7xn88r.com1.z0.glb.clouddn.com/Lake%20Tekapo,%20New%20Zealand1.jpg" alt="Lake"><br>]]>
+    
+    </summary>
+    
+      <category term="life" scheme="http://bupt2014140518.github.io/tags/life/"/>
+    
+      <category term="随想" scheme="http://bupt2014140518.github.io/categories/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[剑指offer-链表操作]]></title>
+    <link href="http://bupt2014140518.github.io/2015/10/13/%E5%89%91%E6%8C%87offer-%E9%93%BE%E8%A1%A8%E6%93%8D%E4%BD%9C/"/>
+    <id>http://bupt2014140518.github.io/2015/10/13/剑指offer-链表操作/</id>
+    <published>2015-10-13T11:06:35.000Z</published>
+    <updated>2015-10-19T11:34:25.380Z</updated>
+    <content type="html"><![CDATA[<p>主要针对链表的操作~<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Grand%20Teton%20National%20Park,%20U.S..jpg" alt="Grand Teton"><br><a id="more"></a></p>
+<h3 id="问题描述1">问题描述1</h3><p>输入一个链表，输出该链表中倒数第k个结点。<br><strong><em>分析1</em></strong></p>
+<ol>
+<li>最优：设定两个指针，让第一个指针和第二个指针都指向头结点，然后再让第一个指针走(k-1)步，到达第k个节点。<br>然后两个指针同时往后移动，当第一个结点到达末尾的时候，第二个结点所在位置就是倒数第k个节点了；</li>
+<li>较简单：首先算出链表的总长度n，然后返回第n-k个。</li>
+</ol>
+<h3 id="代码1">代码1</h3><p><strong><em>思路11</em></strong><br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> ListNode &#123;</span><br><span class="line">    <span class="keyword">int</span> val;</span><br><span class="line">    ListNode next = null;</span><br><span class="line"></span><br><span class="line">    ListNode(<span class="keyword">int</span> val) &#123;</span><br><span class="line">        <span class="keyword">this</span>.val = val;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> Solution &#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> ListNode <span class="title">FindKthToTail</span><span class="params">(ListNode head,<span class="keyword">int</span> k)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(head==null||k&lt;=<span class="number">0</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> null;</span><br><span class="line">        &#125;</span><br><span class="line">        ListNode pre=head;</span><br><span class="line">        ListNode last=head;       </span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;k;i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(pre.next!=null)&#123;</span><br><span class="line">                pre=pre.next;</span><br><span class="line">            &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                <span class="keyword">return</span> null;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">while</span>(pre.next!=null)&#123;</span><br><span class="line">            pre = pre.next;</span><br><span class="line">            last=last.next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> last;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p><strong><em>思路12</em></strong><br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> ListNode &#123;</span><br><span class="line">    <span class="keyword">int</span> val;</span><br><span class="line">    ListNode next = null;</span><br><span class="line"></span><br><span class="line">    ListNode(<span class="keyword">int</span> val) &#123;</span><br><span class="line">        <span class="keyword">this</span>.val = val;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">class</span> Solution &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">FindKthToTail</span><span class="params">(ListNode* pListHead, <span class="keyword">unsigned</span> <span class="keyword">int</span> k)</span> </span>&#123;</span><br><span class="line">        ListNode* pp = pListHead;</span><br><span class="line">        <span class="keyword">int</span> n = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span>(pp != <span class="literal">NULL</span>) &#123;</span><br><span class="line">            n++;</span><br><span class="line">            pp = pp-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(n &lt; k or k==<span class="number">0</span> or pp==<span class="literal">NULL</span>) <span class="keyword">return</span> <span class="literal">NULL</span>;</span><br><span class="line">        <span class="keyword">int</span> i = <span class="number">0</span>;</span><br><span class="line">        pp = pListHead;</span><br><span class="line">        <span class="keyword">while</span>(pp != <span class="literal">NULL</span> &amp;&amp; ++i &lt; (n-k+<span class="number">1</span>)) pp = pp-&gt;next;</span><br><span class="line">        <span class="keyword">return</span> pp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+<h3 id="问题2">问题2</h3><p>输入一个链表，反转链表后，输出链表的所有元素。<br><strong><em>头插法（三个指针轮换）</em></strong></p>
+<h3 id="代码2">代码2</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> ListNode &#123;</span><br><span class="line">    <span class="keyword">int</span> val;</span><br><span class="line">    <span class="keyword">struct</span> ListNode *next;</span><br><span class="line">    ListNode(<span class="keyword">int</span> x) :</span><br><span class="line">            val(x), next(<span class="literal">NULL</span>) &#123;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">class</span> Solution &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">ReverseList</span><span class="params">(ListNode* pHead)</span> </span>&#123;</span><br><span class="line">        ListNode* h = <span class="literal">NULL</span>;</span><br><span class="line">		<span class="keyword">if</span>(pHead)&#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">NULL</span>;</span><br><span class="line">		&#125;</span><br><span class="line">        <span class="keyword">for</span>(ListNode* p = pHead; p; )&#123;</span><br><span class="line">            ListNode* tmp = p -&gt; next;</span><br><span class="line">            p -&gt; next = h;</span><br><span class="line">            h = p;</span><br><span class="line">            p = tmp;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> h;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<h3 id="问题3">问题3</h3><p>输入两个单调递增的链表，输出两个链表合成后的链表，当然我们需要合成后的链表满足单调不减规则。<br><strong><em>注意tmp的作用</em></strong></p>
+<h3 id="代码3">代码3</h3><p><strong><em>非递归方法</em></strong><br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">struct ListNode &#123;</span><br><span class="line">	int val;</span><br><span class="line">	struct ListNode *next;</span><br><span class="line">	ListNode(int x) :</span><br><span class="line">			val(x), next(NULL) &#123;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    ListNode* Merge(ListNode* pHead1, ListNode* pHead2)</span><br><span class="line">    &#123;</span><br><span class="line">         ListNode tmp(20), *p = &amp;tmp;</span><br><span class="line">        while(pHead1 || pHead2)&#123;</span><br><span class="line">            if(!pHead2 || (pHead1 &amp;&amp; pHead1 -&gt; val &lt;= pHead2 -&gt; val))&#123;</span><br><span class="line">                p -&gt; next = pHead1;</span><br><span class="line">                pHead1 = pHead1 -&gt; next;</span><br><span class="line">            &#125;</span><br><span class="line">            else&#123;</span><br><span class="line">                p -&gt; next = pHead2;</span><br><span class="line">                pHead2 = pHead2 -&gt; next;</span><br><span class="line">            &#125;</span><br><span class="line">            p = p -&gt; next;</span><br><span class="line">        &#125;</span><br><span class="line">        return tmp.next;</span><br><span class="line">    &#125;</span><br><span class="line">   </span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+<p><strong><em>递归方法</em></strong><br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> ListNode &#123;</span><br><span class="line">	<span class="keyword">int</span> val;</span><br><span class="line">	<span class="keyword">struct</span> ListNode *next;</span><br><span class="line">	ListNode(<span class="keyword">int</span> x) :</span><br><span class="line">			val(x), next(<span class="literal">NULL</span>) &#123;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">class</span> Solution &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">Merge</span><span class="params">(ListNode* pHead1, ListNode* pHead2)</span></span><br><span class="line">    </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(list1==null)</span><br><span class="line">			<span class="keyword">return</span> list2;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span>(list2==null)</span><br><span class="line">			<span class="keyword">return</span> list1;</span><br><span class="line">		ListNode mergeHead=null;</span><br><span class="line">		<span class="keyword">if</span>(list1.val&lt;list2.val)&#123;</span><br><span class="line">			mergeHead=list1;</span><br><span class="line">			mergeHead.next=Merge(list1.next, list2);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span>&#123;</span><br><span class="line">			mergeHead=list2;</span><br><span class="line">			mergeHead.next=Merge(list1, list2.next);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> mergeHead;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>主要针对链表的操作~<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Grand%20Teton%20National%20Park,%20U.S..jpg" alt="Grand Teton"><br>]]>
+    
+    </summary>
+    
+      <category term="剑指offer" scheme="http://bupt2014140518.github.io/tags/%E5%89%91%E6%8C%87offer/"/>
+    
+      <category term="题库" scheme="http://bupt2014140518.github.io/categories/%E9%A2%98%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[My sweet darling GrandMa]]></title>
+    <link href="http://bupt2014140518.github.io/2015/10/12/My-sweet-darling-GrandMa/"/>
+    <id>http://bupt2014140518.github.io/2015/10/12/My-sweet-darling-GrandMa/</id>
+    <published>2015-10-12T13:44:06.000Z</published>
+    <updated>2015-10-14T13:27:40.878Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://7xn88r.com1.z0.glb.clouddn.com/Tuscany,%20Italy6.jpg" alt="Italy"><br><a id="more"></a><br>看了《What We Did on Our Holiday》,很感动，想起了我的姥姥~<br>我姥姥是一位很自强的女人，她经常唠叨，经常对我说对别人好，别人就对你好，但不要被别人欺负；<br>她经常骂我，特别是我在吃饭的时候看电视，还有小时候那些淘气的时候；她陪伴我从出生的第二天早上一直到现在，<br>她很好，虽然身体不大好，但是她吃的很多，这是我高兴的地方~<br>想说的还有很多。。。<br>然而最重要的就是：我爱我姥姥~</p>
+<video src="http://7xn88r.com1.z0.glb.clouddn.com/What.We.Did.on.Our.Holiday.2014.1080p.BluRay.X264-AMIABLE_clip.mp4" width="320" height="240" controls autobuffer=""></video> ]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://7xn88r.com1.z0.glb.clouddn.com/Tuscany,%20Italy6.jpg" alt="Italy"><br>]]>
+    
+    </summary>
+    
+      <category term="亲爱的" scheme="http://bupt2014140518.github.io/tags/%E4%BA%B2%E7%88%B1%E7%9A%84/"/>
+    
+      <category term="随想" scheme="http://bupt2014140518.github.io/categories/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[剑指offer-数组重整]]></title>
+    <link href="http://bupt2014140518.github.io/2015/10/12/%E5%89%91%E6%8C%87offer-%E6%95%B0%E7%BB%84%E9%87%8D%E6%95%B4/"/>
+    <id>http://bupt2014140518.github.io/2015/10/12/剑指offer-数组重整/</id>
+    <published>2015-10-12T11:47:50.000Z</published>
+    <updated>2015-10-12T12:04:21.365Z</updated>
+    <content type="html"><![CDATA[<p>考查：代码的完整性，主要用于快排，插排的思想解决实际问题~<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Salar%20de%20Uyuni,%20Bolivia2.jpg" alt="Salar"><br><a id="more"></a></p>
+<h3 id="问题描述">问题描述</h3><p>输入一个整数数组，实现一个函数来调整该数组中数字的顺序，使得所有的奇数位于数组的前半部分，所有的偶数位于位于数组的后半部分，<br>并保证奇数和奇数，偶数和偶数之间的相对位置不变。<br><strong><em>主要有三种思路</em></strong></p>
+<ol>
+<li>插排的思路</li>
+<li>快排的思路（不保证奇数与奇数的顺序）</li>
+<li>最简单的用数组复制的思路]</li>
+</ol>
+<h3 id="代码">代码</h3><p><strong>思路1 插排</strong><br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">reOrderArray</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp;<span class="built_in">array</span>)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="built_in">array</span>.length;i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">array</span>[i]%<span class="number">2</span>==<span class="number">1</span>)&#123;</span><br><span class="line">                <span class="keyword">int</span> temp=<span class="built_in">array</span>[i];</span><br><span class="line">                <span class="keyword">int</span> j=i-<span class="number">1</span>;</span><br><span class="line">                <span class="keyword">while</span>(j&gt;=<span class="number">0</span>&amp;&amp;<span class="built_in">array</span>[j]%<span class="number">2</span>==<span class="number">0</span>)&#123;</span><br><span class="line">                    <span class="built_in">array</span>[j+<span class="number">1</span>]=<span class="built_in">array</span>[j];</span><br><span class="line">                    j--;</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="built_in">array</span>[j+<span class="number">1</span>]=temp;</span><br><span class="line">            &#125;            </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></p>
+<p><strong>思路2 最简单的复制</strong><br>奇数在a数组，偶数在b数组，然后再讲array的数组重新插入a&amp;b<br><strong>思路3 快排（无序）</strong><br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">reOrderArray</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp;<span class="built_in">array</span>)</span> </span>&#123;</span><br><span class="line">      <span class="keyword">int</span> i=<span class="number">0</span>;</span><br><span class="line">      <span class="keyword">int</span> j=<span class="built_in">array</span>.length-<span class="number">1</span>;</span><br><span class="line">      <span class="keyword">while</span>(i&lt;j)&#123;</span><br><span class="line">          <span class="keyword">while</span>(i&lt;j&amp;&amp;<span class="built_in">array</span>[i]%<span class="number">2</span>==<span class="number">1</span>)&#123;</span><br><span class="line">              i++;</span><br><span class="line">          &#125;</span><br><span class="line">          <span class="keyword">while</span>(i&lt;j&amp;&amp;<span class="built_in">array</span>[j]%<span class="number">2</span>==<span class="number">0</span>)&#123;</span><br><span class="line">              j--;</span><br><span class="line">          &#125;</span><br><span class="line">          <span class="keyword">int</span> temp=<span class="built_in">array</span>[j];</span><br><span class="line">          <span class="built_in">array</span>[j]=<span class="built_in">array</span>[i];</span><br><span class="line">          <span class="built_in">array</span>[i]=temp;</span><br><span class="line">      &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>考查：代码的完整性，主要用于快排，插排的思想解决实际问题~<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Salar%20de%20Uyuni,%20Bolivia2.jpg" alt="Salar"><br>]]>
+    
+    </summary>
+    
+      <category term="剑指offer" scheme="http://bupt2014140518.github.io/tags/%E5%89%91%E6%8C%87offer/"/>
+    
+      <category term="题库" scheme="http://bupt2014140518.github.io/categories/%E9%A2%98%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Song-Beauty in the World]]></title>
+    <link href="http://bupt2014140518.github.io/2015/10/11/Song-Beauty-in-the-World/"/>
+    <id>http://bupt2014140518.github.io/2015/10/11/Song-Beauty-in-the-World/</id>
+    <published>2015-10-11T13:35:16.000Z</published>
+    <updated>2015-10-14T13:28:37.427Z</updated>
+    <content type="html"><![CDATA[<p>电影《Paper Planes》纸飞机的片尾曲~sweet song<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Antelope%20Canyon,%20U.S2.jpg" alt="Antelope"><br><a id="more"></a></p>
+<p><audio src="http://7xn88r.com1.z0.glb.clouddn.com/Paper.Planes.2014.BluRay.720p.DTS.x264-MTeam_clip.mp3" controls="controls"></audio></p>
+<h4 id="歌词：">歌词：</h4><p>I know you’re fed up<br>我知道你已经受够了<br>Like a lead up for us<br>向我们的领导一样<br>All they talk about is<br>他们说的都是<br>What is going down?<br>发生了什么<br>What’s been messed up for us?<br>我们出了什么差错<br>When I look around I see blue skies<br>当我环顾四周的时候我看见蓝色的天空<br>I see butterflies for us<br>我看见蝴蝶<br>Listen to the sound and lose it<br>听到声音然后失去了<br>Its sweet music and dance with me<br>和着美妙的音乐跳舞<br>There is beauty in the world<br>世界上有美好的事物<br>So much beauty in the world<br>世界还有这么多美好<br>Always beauty in the world<br>世界总是美好的<br>So much beauty in the world<br>世界如此美好<br>Shake your booty boys and girls for the beauty in the world<br>男孩女孩们为了世界的美好摇摆吧<br>Pick your diamond pick your pearl there is beauty in the world<br>挑选你的钻石你的珍珠吧，世界很美好<br>All together now<br>都一起吧<br>We need more lovin’<br>我们需要更多的爱<br>We need more money, they say<br>他们说我们需要更多的钱<br>Change is gonna come<br>将要有改变了<br>Like the weather<br>像天气一样<br>They say forever<br>他们说永远<br>They say<br>他们说<br>When they’re in between<br>当他们在中间时<br>Notice the blue skies<br>注意到蓝天<br>Notice the butterflies<br>主意到蝴蝶<br>Notice me<br>注意到我<br>Stop and smell the flowers<br>停下来闻花香<br>And lose it the sweet music and dance with me<br>迷失自己和我在音乐中跳舞<br>There is beauty in the world<br>世界上有美好的事物<br>So much beauty in the world<br>世界还有这么多美好<br>Always beauty in the world<br>世界总是美好的<br>So much beauty in the world<br>世界如此美好<br>Shake your booty boys and girls for the beauty in the world<br>男孩女孩们为了世界的美好摇摆吧<br>Pick your diamond pick your pearl there is beauty in the world<br>挑选你的钻石你的珍珠吧，世界很美好<br>All together now<br>都一起吧<br>Heya throw your hands up and holla<br>举起手摇摆吧<br>Throw your hands up and holla<br>举起手摇摆<br>When you don’t know what to do<br>当你不知道怎么办时候<br>Don’t know if you’ll make it through<br>不知道你能否坚持度过<br>Remember god is giving you beauty in the world<br>记住上帝给你世界上美好的东西<br>So love (Beauty in the world)<br>所以爱吧<br>Yeah love (Beauty in the world)<br>爱吧<br>There is beauty in the world (Beauty in the world)<br>世界上有很多美好<br>Beauty in the world (Beauty in the world)<br>世界很美好<br>Shake your booty boys and girls (Boys and Girls)<br>男孩女孩起舞吧<br>All the beauty in the world (Beauty in the world)<br>世界很美好<br>Pick your diamond pick your pearl (Pick your pearl)<br>挑选你的钻石和珠宝<br>There is beauty in the world (Beauty in the world)<br>世界有很多美好<br>All together now<br>大家一起<br>Yeah love 耶亲爱的<br>Yeah love耶亲爱的<br>Oh love亲爱的<br>All together now<br>大家一起<br>Hey baby when I’m looking at you<br>亲爱的当我看你的时候<br>I know it’s fact is true<br>我知道这是真的<br>There is hope for love<br>爱还有希望<br>There is beauty in the world<br>世界很美好<br>Hey baby when I’m looking at you<br>亲爱的当我看你的时候<br>I know it’s fact is true<br>我知道这是真的<br>There is hope for love<br>爱还有希望<br>There is beauty in the world<br>世界很美好</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>电影《Paper Planes》纸飞机的片尾曲~sweet song<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Antelope%20Canyon,%20U.S2.jpg" alt="Antelope"><br>]]>
+    
+    </summary>
+    
+      <category term="电影插曲" scheme="http://bupt2014140518.github.io/tags/%E7%94%B5%E5%BD%B1%E6%8F%92%E6%9B%B2/"/>
+    
+      <category term="音乐" scheme="http://bupt2014140518.github.io/categories/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[剑指offer-位运算]]></title>
+    <link href="http://bupt2014140518.github.io/2015/10/11/%E5%89%91%E6%8C%87offer-%E4%BD%8D%E8%BF%90%E7%AE%97/"/>
+    <id>http://bupt2014140518.github.io/2015/10/11/剑指offer-位运算/</id>
+    <published>2015-10-11T10:32:50.000Z</published>
+    <updated>2015-10-11T11:10:20.833Z</updated>
+    <content type="html"><![CDATA[<p>只要考查位运算，将十进制转化为二进制，包括负数（补码表示）<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Antelope%20Canyon,%20U.S..jpg" alt="Antelope"><br><a id="more"></a></p>
+<h3 id="问题描述">问题描述</h3><p>输入一个整数，输出该数二进制表示中1的个数。其中负数用补码表示。</p>
+<h3 id="代码">代码</h3><p><strong>解答1</strong><br>如果一个整数不为0，那么这个整数至少有一位是1。如果我们把这个整数减1，那么原来处在整数最右边的1就会变为0，<br>原来在1后面的所有的0都会变成1(如果最右边的1后面还有0的话)。其余所有位将不会受到影响。<br>举个例子：一个二进制数1100，从右边数起第三位是处于最右边的一个1。减去1后，第三位变成0，它后面的两位0变成了1，<br>而前面的1保持不变，因此得到的结果是1011.我们发现减1的结果是把最右边的一个1开始的所有位都取反了。<br>这个时候如果我们再把原来的整数和减去1之后的结果做与运算，从原来整数最右边一个1那一位开始所有位都会变成0。<br>如1100&amp;1011=1000.也就是说，把一个整数减去1，再和原整数做与运算，会把该整数最右边一个1变成0.<br>那么一个整数的二进制有多少个1，<br>就可以进行多少次这样的操作。<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>  <span class="title">NumberOf1</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">       <span class="keyword">int</span> count = <span class="number">0</span>;</span><br><span class="line">       <span class="keyword">while</span>(n!= <span class="number">0</span>)&#123;</span><br><span class="line">           count++;</span><br><span class="line">           n = n &amp; (n - <span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">       <span class="keyword">return</span> count;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p><strong>解答2</strong><br>用1（1自身左移运算，其实后来就不是1了）和n的每位进行位与，来判断1的个数<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>  <span class="title">NumberOf1</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">       <span class="keyword">int</span> count = <span class="number">0</span>;</span><br><span class="line">       <span class="keyword">int</span> flag = <span class="number">1</span>;</span><br><span class="line">       <span class="keyword">while</span> (flag != <span class="number">0</span>) &#123;</span><br><span class="line">           <span class="keyword">if</span> ((n &amp; flag) != <span class="number">0</span>) &#123;</span><br><span class="line">               count++;</span><br><span class="line">           &#125;</span><br><span class="line">           flag = flag &lt;&lt; <span class="number">1</span>;</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">return</span> count;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>只要考查位运算，将十进制转化为二进制，包括负数（补码表示）<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Antelope%20Canyon,%20U.S..jpg" alt="Antelope"><br>]]>
+    
+    </summary>
+    
+      <category term="剑指offer" scheme="http://bupt2014140518.github.io/tags/%E5%89%91%E6%8C%87offer/"/>
+    
+      <category term="题库" scheme="http://bupt2014140518.github.io/categories/%E9%A2%98%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[剑指offer-斐波那契数列应用-跳台阶&&矩形覆盖]]></title>
+    <link href="http://bupt2014140518.github.io/2015/10/10/%E5%89%91%E6%8C%87offer-%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97%E5%BA%94%E7%94%A8-%E8%B7%B3%E5%8F%B0%E9%98%B6/"/>
+    <id>http://bupt2014140518.github.io/2015/10/10/剑指offer-斐波那契数列应用-跳台阶/</id>
+    <published>2015-10-10T12:39:11.000Z</published>
+    <updated>2015-10-11T09:56:45.383Z</updated>
+    <content type="html"><![CDATA[<p>斐波那契数列的应用，递归和动态规划（循环）的灵活使用~<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Horseshoe%20Bend,%20U.S1..jpg" alt="Horseshoe"><br><a id="more"></a></p>
+<h3 id="问题描述：">问题描述：</h3><p>一只青蛙一次可以跳上1级台阶，也可以跳上2级。求该青蛙跳上一个n级的台阶总共有多少种跳法。<br><strong><em>分析</em></strong>：<br>1.假设当有n个台阶时假设有f(n)种走法。<br>2.青蛙最后一步要么跨1个台阶要么跨2个台阶。<br>3.当最后一步跨1个台阶时即之前有n-1个台阶，根据1的假设即n-1个台阶有f(n-1)种走法。<br>4.当最后一步跨1个台阶时即之前有n-2个台阶，根据1的假设即n-2个台阶有f(n-2 )种走法。<br>5.显然n个台阶的走法等于前两种情况的走法之和即f(n)=f(n-1)+f(n-2)。<br>6.找出递推公式后要找公式出口，即当n为1、2时的情况，显然n=1时f(1)等于1，f(2)等于2。</p>
+<h3 id="代码">代码</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//***递归法***</span></span><br><span class="line"> <span class="function"><span class="keyword">int</span> <span class="title">jumpFloor</span><span class="params">(<span class="keyword">int</span> number)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> count = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">if</span>(number &lt;= <span class="number">0</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;    </span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(number == <span class="number">1</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;      </span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(number == <span class="number">2</span>)&#123;</span><br><span class="line">         <span class="keyword">return</span> <span class="number">2</span>;</span><br><span class="line">    &#125;     </span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        count = jumpFloor(number-<span class="number">1</span>) + jumpFloor(number-<span class="number">2</span>);</span><br><span class="line">        <span class="keyword">return</span> count;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//***动态规划法（循环）***</span></span><br><span class="line"> <span class="function"><span class="keyword">int</span> <span class="title">jumpFloor</span><span class="params">(<span class="keyword">int</span> number)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(number &lt; <span class="number">3</span>) </span><br><span class="line">		returnnumber;    </span><br><span class="line">	<span class="keyword">int</span> two = <span class="number">2</span>;</span><br><span class="line">	<span class="keyword">int</span> one = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">int</span> result = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(inti = <span class="number">3</span>; i &lt;= number; ++i)</span><br><span class="line">	&#123;</span><br><span class="line">		result = one + two;</span><br><span class="line">		two = one;</span><br><span class="line">		one = result;</span><br><span class="line">		 </span><br><span class="line">	&#125; </span><br><span class="line">	<span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//另外一种思路：***排列组合算法***</span></span><br><span class="line"><span class="comment">//问题解析：设共跳x个1级台阶，y个2级台阶，可推出x+2y=n =&gt; x=n-2y,</span></span><br><span class="line"><span class="comment">//最终问题为对n-2y个一级台阶与y个2级台阶排列组合，即C(n-y,y)。</span></span><br><span class="line"><span class="comment">//y的范围：y&gt;=0&amp;&amp;y&lt;=(n/2) x的范围：x&gt;=0&amp;&amp;x&lt;=0。</span></span><br><span class="line"> <span class="comment">//求排列组合数</span></span><br><span class="line"> <span class="function"><span class="keyword">int</span> <span class="title">com</span><span class="params">(<span class="keyword">int</span> m,<span class="keyword">int</span> n)</span></span>&#123;  </span><br><span class="line">    <span class="keyword">int</span> i = m;  </span><br><span class="line">    <span class="keyword">int</span> j; </span><br><span class="line">    <span class="keyword">int</span> sum=<span class="number">1</span>; </span><br><span class="line">    <span class="keyword">for</span>(j = <span class="number">0</span>;j &lt; n;j++,i--)&#123; </span><br><span class="line">        sum = sum *i / (j+<span class="number">1</span>);  </span><br><span class="line">    &#125; </span><br><span class="line">    <span class="keyword">return</span> sum;</span><br><span class="line"> &#125; </span><br><span class="line"> <span class="function"><span class="keyword">int</span> <span class="title">jumpFloor</span><span class="params">(<span class="keyword">int</span> number)</span></span>&#123; </span><br><span class="line">    <span class="keyword">int</span> two; <span class="comment">/*跳两级台阶的次数*/</span> </span><br><span class="line">    <span class="keyword">int</span> count = <span class="number">0</span>; </span><br><span class="line">    <span class="keyword">for</span>(two = <span class="number">0</span>;two&lt;= (number/<span class="number">2</span>);two ++)&#123; </span><br><span class="line">        count += com(number-two,two);</span><br><span class="line">    &#125; </span><br><span class="line">    <span class="keyword">return</span> count;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+<h3 id="升级方式的跳台阶；">升级方式的跳台阶；</h3><p>一只青蛙一次可以跳上1级台阶，也可以跳上2级……它也可以跳上n级。求该青蛙跳上一个n级的台阶总共有多少种跳法。</p>
+<h3 id="归纳分析">归纳分析</h3><p>因为n级台阶，第一步有n种跳法：跳1级、跳2级、到跳n级<br>跳1级，剩下n-1级，则剩下跳法是f(n-1)<br>跳2级，剩下n-2级，则剩下跳法是f(n-2)<br>所以f(n)=f(n-1)+f(n-2)+…+f(1)<br>因为f(n-1)=f(n-2)+f(n-3)+…+f(1)<br>所以f(n)=2*f(n-1);<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">jumpFloorII</span><span class="params">(<span class="keyword">int</span> number)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(number&lt;=<span class="number">0</span>)&#123;</span><br><span class="line">           <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">else</span> <span class="keyword">if</span>(number==<span class="number">1</span>)&#123;</span><br><span class="line">           <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">else</span> <span class="keyword">if</span>(number&gt;<span class="number">1</span>)&#123;</span><br><span class="line">           <span class="keyword">return</span> <span class="number">2</span>*jumpFloorII(number-<span class="number">1</span>);</span><br><span class="line">       &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h3 id="另一应用——矩形覆盖">另一应用——矩形覆盖</h3><p><strong><em>题目描述</em></strong><br>我们可以用2<em>1的小矩形横着或者竖着去覆盖更大的矩形。请问用n个2</em>1的小矩形无重叠地覆盖一个2*n的大矩形，总共有多少种方法？<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">rectCover</span><span class="params">(<span class="keyword">int</span> number)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(number &lt; <span class="number">1</span>)&#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="number">1</span>; </span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">else</span> <span class="keyword">if</span>(number == <span class="number">1</span> or number == <span class="number">2</span>)&#123;</span><br><span class="line">           <span class="keyword">return</span> number;</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">else</span>&#123;</span><br><span class="line">           <span class="keyword">return</span> rectCover(number-<span class="number">1</span>)+rectCover(number-<span class="number">2</span>);</span><br><span class="line">       &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>斐波那契数列的应用，递归和动态规划（循环）的灵活使用~<br><img src="http://7xn88r.com1.z0.glb.clouddn.com/Horseshoe%20Bend,%20U.S1..jpg" alt="Horseshoe"><br>]]>
+    
+    </summary>
+    
+      <category term="剑指offer" scheme="http://bupt2014140518.github.io/tags/%E5%89%91%E6%8C%87offer/"/>
+    
+      <category term="题库" scheme="http://bupt2014140518.github.io/categories/%E9%A2%98%E5%BA%93/"/>
+    
+  </entry>
+  
+</feed>
